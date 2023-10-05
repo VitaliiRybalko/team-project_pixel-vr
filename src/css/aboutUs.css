@@ -55,7 +55,13 @@
 }
 
 .about-image {
-  width: 100%;
+  width: 335px;
+}
+
+@media only screen and (min-width: 768px) {
+  .about-image {
+    width: 704px;
+  }
 }
 
 @media only screen and (min-width: 1280px) {
@@ -95,6 +101,8 @@
   font-size: 14px; /* basic text style */
   line-height: 1.28; /* basic text style */
   letter-spacing: -0.02em; /* basic text style */
+
+  width: 335px;
 }
 
 @media only screen and (min-width: 768px) {
