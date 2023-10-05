@@ -1,0 +1,231 @@
+/**
+  |============================
+  | HEADER
+  |============================
+*/
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 14px;
+}
+@media only screen and (min-width: 1280px) {
+  .header-container {
+    gap: 20px;
+  }
+}
+.header-nav {
+  width: 100%;
+  height: 50px;
+  padding: 9px 20px;
+  border-radius: 12px;
+  border: 1px rgba(255, 255, 255, 0.2) solid;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media only screen and (min-width: 375px) {
+  .header-nav {
+    min-width: 335px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .header-nav {
+    width: 504px;
+    height: 60px;
+    padding: 0 20px;
+    margin-right: 14px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .header-nav {
+    width: 822px;
+    padding: 0 50px;
+    margin-right: 20px;
+  }
+}
+.header-logo-link {
+  padding: 0;
+  margin: 0;
+}
+@media only screen and (min-width: 375px) {
+  .header-logo-link {
+    padding: 17px 0;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .header-logo-link {
+    padding: 22px 0;
+    margin-right: 301px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .header-logo-link {
+    padding: 22px 0;
+    margin-right: 97px;
+  }
+}
+.header-logo-icon {
+  padding: 0;
+  margin: 0;
+}
+.header-list {
+  display: none;
+}
+@media only screen and (min-width: 1280px) {
+  .header-list {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+  }
+}
+.header-nav-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 21px 0;
+}
+.header-menu-btn {
+  padding: 0;
+  margin: 0;
+  border: none;
+  background-color: transparent;
+}
+@media only screen and (min-width: 1280px) {
+  .header-menu-btn {
+    display: none;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .header-menu-icon {
+    width: 40px;
+    height: 28px;
+  }
+}
+.header-sign-up {
+  display: none;
+}
+@media only screen and (min-width: 768px) {
+  .header-sign-up {
+    width: 186px;
+    background: var(--white);
+    color: var(--black);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.56;
+    text-transform: uppercase;
+    border-radius: 12px;
+    display: inline-flex;
+    padding: 16px 58px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .header-sign-up {
+    width: 186px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .header-sign-up {
+    width: 238px;
+    padding: 16px 84px;
+  }
+}
+.header-sign-up-cam {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--dark-grey);
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+}
+@media only screen and (min-width: 768px) {
+  .header-sign-up-cam {
+    display: none;
+  }
+}
+.header-sign-up-icon {
+  fill: #bea69e66;
+}
+.mob-right-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+}
+
+/**
+  |============================
+  | MOBILE MENU
+  |============================
+*/
+.menu-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 218px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 180px 101px 0px 20px;
+  background-color: var(--brown);
+  background-image: url(../img/header/rectangle-menu-mob.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+  transform: translateX(100%);
+  transition: transform var(--trns-fast);
+}
+@media only screen and (min-resolution: 192dpi) {
+  .menu-container {
+    background-image: url(../img/header/rectangle-menu-mob@2x.jpg);
+  }
+}
+.menu-container.is-open {
+  transform: translateX(0);
+}
+@media only screen and (min-width: 768px) {
+  .menu-container {
+    width: 480px;
+    padding: 232px 319px 590px 64px;
+    background-image: url(../img/header/rectangle-menu-mob-tablet.jpg);
+  }
+}
+@media only screen and (min-width: 768px) and (min-resolution: 192dpi) {
+  .menu-container {
+    background-image: url(../img/header/rectangle-menu-mob-tablet@2x.jpg);
+  }
+}
+.btn-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+@media only screen and (min-width: 768px) {
+  .btn-close {
+    right: 32px;
+  }
+}
+.btn-close-icon {
+  stroke: var(--black);
+}
+.mob-nav-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.mob-nav-link {
+  color: var(--black);
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.mob-nav-link.current {
+  font-weight: 700;
+}
