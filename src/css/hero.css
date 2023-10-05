@@ -12,6 +12,7 @@
 }
 
 .div-hero-section {
+  position: relative;
   background: var(--gradient-end);
   width: 335px;
   height: 777px;
@@ -110,10 +111,11 @@
   letter-spacing: -0.56px;
 }
 .hero-img-man-main {
-  position: relative;
-  bottom: -31px;
+  position: absolute;
+  bottom: 0;
 }
-
+.fix-images {
+}
 .hero-p-review {
   font-size: 14px;
   font-weight: 400;
