@@ -9,7 +9,7 @@
   justify-content: space-between;
   align-items: center;
   gap: 14px;
-  margin: 20px 0;
+  margin: 20px auto;
 }
 @media only screen and (min-width: 1280px) {
   .header-container {
@@ -33,17 +33,15 @@
 }
 @media only screen and (min-width: 768px) {
   .header-nav {
-    width: 504px;
+    min-width: 504px;
     height: 60px;
     padding: 0 20px;
-    margin-right: 14px;
   }
 }
 @media only screen and (min-width: 1280px) {
   .header-nav {
-    width: 822px;
+    min-width: 822px;
     padding: 0 50px;
-    margin-right: 20px;
   }
 }
 .header-logo-link {
@@ -57,7 +55,6 @@
 @media only screen and (min-width: 768px) {
   .header-logo-link {
     padding: 22px 0;
-    margin-right: 301px;
   }
 }
 @media only screen and (min-width: 1280px) {
@@ -67,6 +64,7 @@
   }
 }
 .header-logo-icon {
+  display: block;
   padding: 0;
   margin: 0;
 }
@@ -86,6 +84,8 @@
   padding: 21px 0;
 }
 .header-menu-btn {
+  display: flex;
+  align-items: center;
   padding: 0;
   margin: 0;
   border: none;
@@ -107,7 +107,7 @@
 }
 @media only screen and (min-width: 768px) {
   .header-sign-up {
-    width: 186px;
+    min-width: 186px;
     background: var(--white);
     color: var(--black);
     font-size: 18px;
@@ -121,14 +121,9 @@
     align-items: center;
   }
 }
-@media only screen and (min-width: 768px) {
-  .header-sign-up {
-    width: 186px;
-  }
-}
 @media only screen and (min-width: 1280px) {
   .header-sign-up {
-    width: 238px;
+    min-width: 238px;
     padding: 16px 84px;
   }
 }
