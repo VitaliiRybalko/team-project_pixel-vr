@@ -1,4 +1,5 @@
 .outer-ul{
     display: flex;
     gap: 40px;
+    background-color: black;
 }
