@@ -24,69 +24,103 @@
   }
 }
 
-.about-title-accent {
-  color: var(--brown);
-}
-
 .about-content {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
+  gap: 40px;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1279px) {
+@media only screen and (min-width: 768px) {
   .about-content {
     align-items: flex-start;
+    gap: 50px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .about-content {
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+
+    gap: 40px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .about-content {
+    gap: 50px;
   }
 }
 
 .about-image {
-  margin-bottom: 40px;
+  width: 100%;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1280px) {
   .about-image {
-    margin-bottom: 50px;
+    width: 488px;
   }
 }
 
-@media only screen and (min-width: 1158px) and (max-width: 1439.98px) {
+@media only screen and (min-width: 1440px) {
   .about-image {
-    margin-bottom: 40px;
+    width: 544px;
   }
 }
-/* 1440 - mb:50px */
 
 .about-text-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   gap: 20px;
 }
 
 @media only screen and (min-width: 768px) {
   .about-text-container {
+    flex-direction: row;
     gap: 40px;
   }
 }
 
 @media only screen and (min-width: 1280px) and (max-width: 1439.98px) {
-  .about-content {
+  .about-text-container {
     gap: 20px;
   }
 }
 /* 1440 - gap:40px */
 
 .about-text {
-  color: var(--white); /* basic style */
-  font-size: 14px;
-  line-height: 1.28;
-  letter-spacing: -0.02em;
+  color: var(--white); /* basic text style */
+  font-size: 14px; /* basic text style */
+  line-height: 1.28; /* basic text style */
+  letter-spacing: -0.02em; /* basic text style */
 }
 
 @media only screen and (min-width: 768px) {
   .about-text {
+    width: 280px;
     font-size: 16px;
     line-height: 1.25;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .about-text {
+    width: 268px;
+  }
+  .about-text:last-child {
+    width: 264px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .about-text {
+    width: 330px;
+  }
+  .about-text:last-child {
+    width: 276px;
   }
 }
