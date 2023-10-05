@@ -1,6 +1,8 @@
 .mentor-section {
-  background: var(--black, #121212);;
+  background: var(--black, #121212);
+  margin-bottom: 80px;
 }
+
 
 .mentor-title {
   color: var(--white);
