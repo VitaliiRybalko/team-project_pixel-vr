@@ -12,7 +12,6 @@
 }
 
 .div-hero-section {
-  position: relative;
   background: var(--gradient-end);
   width: 335px;
   height: 777px;
@@ -73,8 +72,9 @@
 
 .hero-review {
   display: flex;
-  align-content: flex-start;
-  flex-wrap: wrap;
+}
+.hero-p-review {
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .hero-section-photo-ul {
@@ -91,6 +91,8 @@
 }
 
 .hero-a-svg-star {
+  width: 44px;
+  height: 44px;
   padding: 12px;
   background-color: var(--brown);
   border-radius: 50%;
@@ -111,85 +113,125 @@
   letter-spacing: -0.56px;
 }
 .hero-img-man-main {
-  position: absolute;
-  bottom: 0;
+  /* position: absolute; */
+  margin-top: 33px;
 }
 .fix-images {
 }
 .hero-p-review {
   font-size: 14px;
   font-weight: 400;
-}
-/* .color-hero-update {
-  font-style: italic;
-  font-size: 2.5rem;
-  line-height: 2.75rem;
-  letter-spacing: -0.1rem;
-  font-weight: 400;
+  margin-bottom: 4px;
 }
 
-.hero-paragraf {
-  font-size: 14px;
-  color: var(--white);
-  margin-bottom: 40px;
+@media only screen and (min-width: 320px) and (max-width: 767.98px) {
+  .container {
+    padding: 0, 20px;
+    margin: 0 auto;
+  }
+  .hero-img-man-main-tab {
+    display: none;
+  }
+  .hero-img-man-main-desk {
+    display: none;
+  }
 }
-.hero-ul-li-a {
-  border: 2px solid #1d1d1d;
-}
-.hero-studend-and-review {
-  display: flex;
-  color: var(--white);
-  width: 251px;
-  height: 84px;
+@media only screen and (min-width: 768px) and (max-width: 1280px) {
+  .container {
+    width: 100%;
+    padding: 0, 32px;
+    margin: 0 auto;
+  }
+
+  .div-hero-section {
+    background: var(--gradient-end);
+    width: 704px;
+    height: 900px;
+    border-radius: 30px;
+    padding: 64px 32px 32px 32px;
+    margin-bottom: 100px;
+  }
+  .hero-img-man-main {
+    display: none;
+  }
+  .hero-img-man-main-tab {
+    margin-top: 13px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .main-hero-h {
+    color: var(--white);
+    /* font-size: 2.5rem; */
+    font-size: 3.75rem;
+    line-height: 2.75rem;
+    letter-spacing: -0.1rem;
+    font-weight: 500;
+    padding: 0px 0 20px 0;
+    width: 511px;
+    line-height: 4rem;
+  }
+  .color-hero-update {
+    font-size: 3.75rem;
+    line-height: 4rem;
+    margin: 0 13px 0 0;
+  }
+  .hero-paragraf {
+    width: 418px;
+  }
+  .hero-students {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: unset;
+  }
+  .hero-img-man-main-desk {
+    display: none;
+  }
 }
 
-.hero-student {
-  display: flex;
+@media only screen and (min-width: 1280px) and (max-width: 1440px) {
+  .container {
+    width: 1280px;
+    padding: 0, 100px;
+    margin: 0 auto;
+  }
+  .hero-img-man-main {
+    display: none;
+  }
+  .hero-img-man-main-tab {
+    display: none;
+  }
+  .div-hero-section {
+    padding: 80px 50px 50px 50px;
+  }
+  .main-hero-h {
+    width: 530px;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 4.25rem;
+    letter-spacing: -0.16rem;
+    padding-bottom: 20px;
+  }
+  .color-hero-update {
+    margin: 0 14px 0 0;
+    font-size: 64px;
+    line-height: 68px;
+    letter-spacing: -2.56px;
+  }
+  .hero-paragraf {
+    width: 418px;
+    margin-bottom: 138px;
+  }
+  .hero-students {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: unset;
+  }
+  .hero-fix-image {
+    position: absolute;
+    /* top: 0; */
+    right: 50px;
+    bottom: 0;
+  }
 }
-.hero-ul-li {
-  width: 44px;
-  height: 44px;
-}
-.hero-ul-li-a {
-  position: relative;
-}
-.hero-ul-li-a + .img-student {
-  margin-left: -10px;
-}
-
-.hero-text-human-p {
-}
-
-.img-student {
-  width: 100%;
-  border-radius: 50%;
-  border: 2px solid #1d1d1d;
-}
-
-.hero-section-photo-ul {
-  display: flex;
-}
-.hero-review {
-  display: flex;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-.hero-right-svg {
-  fill: var(--white);
-}
-.hero-star-svg {
-  background-color: var(--brown);
-  width: 44px;
-  height: 44px;
-  flex-shrink: 0;
-  border-radius: 50%;
-}
-
-.hero-img-man-main {
-}
-div > .hero-img-man-main {
-  position: relative;
-  bottom: -72px;
-} */
