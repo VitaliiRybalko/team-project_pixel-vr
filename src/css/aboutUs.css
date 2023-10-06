@@ -1,9 +1,3 @@
-.about-us {
-}
-
-.about-container {
-}
-
 .about-title {
   color: var(--white); /* base text style */
   font-family: DM Sans; /* base text style */
@@ -55,7 +49,13 @@
 }
 
 .about-image {
-  width: 100%;
+  width: 335px;
+}
+
+@media only screen and (min-width: 768px) {
+  .about-image {
+    width: 704px;
+  }
 }
 
 @media only screen and (min-width: 1280px) {
@@ -74,7 +74,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* align-items: center; */
   gap: 20px;
 }
 
@@ -90,13 +89,14 @@
     gap: 20px;
   }
 }
-/* 1440 - gap:40px */
 
 .about-text {
   color: var(--white); /* basic text style */
   font-size: 14px; /* basic text style */
   line-height: 1.28; /* basic text style */
   letter-spacing: -0.02em; /* basic text style */
+
+  width: 335px;
 }
 
 @media only screen and (min-width: 768px) {
