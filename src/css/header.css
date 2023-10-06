@@ -164,12 +164,16 @@
   height: 100%;
   background-color: rgba(18, 18, 18, 0.4);
   z-index: 777;
-}
-.backdrop.is-hidden {
+
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
-  transform: translateY(100%);
+  transition: opacity var(--trns-fast), visibility var(--trns-fast);
+}
+.backdrop.is-open {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: initial;
 }
 .menu-container {
   position: fixed;
@@ -194,7 +198,7 @@
     background-image: url(../img/header/rectangle-menu-mob@2x.jpg);
   }
 }
-.menu-container.is-open {
+.backdrop.is-open .menu-container {
   transform: translateX(0);
 }
 @media only screen and (min-width: 768px) {

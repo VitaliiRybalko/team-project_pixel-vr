@@ -1,4 +1,6 @@
 :root {
+  scroll-behavior: smooth;
+
   --black: #121212;
   --dark-grey: #1d1d1d;
   --gradient-start: #060707;
