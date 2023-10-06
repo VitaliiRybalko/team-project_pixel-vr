@@ -125,10 +125,6 @@
 }
 
 @media only screen and (min-width: 320px) and (max-width: 767.98px) {
-  .container {
-    padding: 0, 20px;
-    margin: 0 auto;
-  }
   .hero-img-man-main-tab {
     display: none;
   }
@@ -137,12 +133,6 @@
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 1280px) {
-  .container {
-    width: 100%;
-    padding: 0, 32px;
-    margin: 0 auto;
-  }
-
   .div-hero-section {
     background: var(--gradient-end);
     width: 704px;
@@ -190,11 +180,6 @@
 }
 
 @media only screen and (min-width: 1280px) and (max-width: 1440px) {
-  .container {
-    width: 1280px;
-    padding: 0, 100px;
-    margin: 0 auto;
-  }
   .hero-img-man-main {
     display: none;
   }
