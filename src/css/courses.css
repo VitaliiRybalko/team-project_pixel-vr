@@ -1,0 +1,131 @@
+/* .courses {
+} */
+
+.courses-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+  .courses-wrapper {
+    flex-direction: row;
+    gap: 58px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .courses-wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.courses-title {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.04em;
+
+  margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .courses-title {
+    font-size: 48px;
+    line-height: 1.13;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .courses-description {
+    font-size: 16px;
+    width: 381px;
+  }
+}
+
+.courses-card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+}
+
+.courses-card-item {
+  display: flex;
+  position: relative;
+  width: 335px;
+  height: 398px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: linear-gradient(
+    180deg,
+    var(--gradient-start) 0%,
+    var(--gradient-end) 100%
+  );
+
+  padding: 28px;
+}
+
+@media only screen and (min-width: 768px) {
+  .courses-card-item {
+    width: 342px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .courses-card-item {
+    width: 347px;
+  }
+}
+
+.courses-number {
+  position: absolute;
+  color: rgba(255, 255, 255, 0.4);
+  margin-bottom: 42px;
+}
+
+.courses-btn {
+  position: absolute;
+  top: 28px;
+  right: 28px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #1d1d1d;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.courses-card-icon {
+  stroke: #777777;
+}
+
+.courses-info-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 279px;
+}
+
+@media only screen and (max-width: 374px) {
+  .courses-info-wrapper {
+    width: 222px;
+  }
+}
+
+.courses-card-title {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.14;
+  margin-top: 88px;
+}
+
+@media only screen and (min-width: 1280px) {
+  .courses-info-wrapper {
+    width: 265px;
+  }
+}
+
+.courses-card-description {
+  color: rgba(255, 255, 255, 0.5);
+}
