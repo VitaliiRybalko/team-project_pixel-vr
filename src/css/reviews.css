@@ -1,9 +1,5 @@
-.reviews {
-}
-.section {
-}
-.container {
-}
+/* .reviews {
+} */
 .reviews-titel {
   font-size: 28px;
   font-weight: 500;
@@ -14,8 +10,8 @@
   text-align: left;
   margin-bottom: 40px;
 }
-.reviews-list {
-}
+/* .reviews-list {
+} */
 .reviews-item {
   padding: 20px;
 
@@ -66,8 +62,8 @@
   align-items: flex-start;
   gap: 4px;
 }
-.star {
-}
+/* .star {
+} */
 .star-gray {
   stroke: #414141;
   fill: #414141;
