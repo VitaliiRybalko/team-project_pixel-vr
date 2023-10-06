@@ -35,9 +35,7 @@
 
 
 
-.test{
-text-decoration: none;
-}
+
 .outer-ul{
     display: flex;
     gap: 40px;
