@@ -1,5 +1,91 @@
+.main-footer{
+    position: relative;
+    background-image: url(../img/footer/footer-net-mob.png);
+    background-repeat: no-repeat;
+   background-size: cover;
+    padding-bottom: 20px;
+    border-top: 1px solid rgba(255, 255, 255, .2);
+
+   
+}
+
+
+
+.footer-logo{
+    display: block;
+    margin-bottom: 20px;
+
+}
+.phone-nmbr{
+    margin-bottom: 10px;
+}
+.address-footer{
+    /* margin-bottom: 40px; */
+    font-style: normal;
+}
+.footer-links{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    text-transform: uppercase;
+}
+.address-link{
+    margin-bottom: 40px;
+}
+
+
+
+
 .outer-ul{
     display: flex;
     gap: 40px;
-    background-color: black;
+   
+}
+.links{
+    margin-bottom: 75px;
+    
+}
+
+.footer-input{
+width: 267px;
+height: 60px;
+outline: transparent;
+border-radius: 12px;
+border: transparent;
+padding: 20px 18px;
+
+}
+.footer-button {
+    margin-left: 8px;
+    margin-bottom: 40px;
+    width: 60px;
+    height: 60px;
+    border-radius: 12px;
+    background-color: var(--dark-grey);
+    border: transparent;
+    color: var(--white);
+     font-size: 20px;
+
+   
+
+}
+.form-footer{
+    display: flex;
+}
+.rights-reserved{
+    display: flex;
+    justify-content: space-between;
+    /* margin-bottom: 20px; */
+
+}
+.left-container{
+    width: 147px;
+    font-size: 12px;
+    line-height: 1.33;
+}
+.right-container{
+    width: 116px;
+    font-size: 12px;
+    line-height: 1.33;
+    
 }

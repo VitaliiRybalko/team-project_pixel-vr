@@ -96,7 +96,13 @@
   line-height: 1.28; /* basic text style */
   letter-spacing: -0.02em; /* basic text style */
 
-  width: 335px;
+  width: 100%;
+}
+
+@media only screen and (min-width: 375px) {
+  .about-text {
+    width: 335px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
