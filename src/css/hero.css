@@ -114,8 +114,9 @@
   line-height: 18px;
   letter-spacing: -0.56px;
 }
-.hero-img-man-main {
-  /* position: absolute; */
+
+.hero-img {
+  margin: 0 auto;
 }
 
 .hero-p-review {
