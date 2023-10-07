@@ -7,10 +7,6 @@
   padding: 40px 0 20px 0;
 }
 
-.hero-section {
-  background-color: var(--black);
-}
-
 .div-hero-section {
   background: var(--gradient-end);
   width: 335px;
@@ -78,6 +74,7 @@
 
 .hero-review {
   display: flex;
+  gap: 12px;
 }
 .hero-p-review {
   color: rgba(255, 255, 255, 0.5);
@@ -102,7 +99,6 @@
   padding: 12px;
   background-color: var(--brown);
   border-radius: 50%;
-  margin-right: 12px;
 }
 
 .hero-star-svg {
@@ -128,13 +124,55 @@
   margin-bottom: 4px;
 }
 
+.bg-image-lines {
+  background-image: url(../img/header/graphic-mob.png);
+  width: 100%;
+  background-position: bottom;
+  background-size: contain;
+}
+.hero-section {
+  padding-bottom: 80px;
+}
+@media only screen and (min-resolution: 192dpi) {
+  .bg-image-lines {
+    background-image: url(../img/header/graphic-mob@2x.png);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .bg-image-lines {
+    background-image: url(../img/header/graphic-tab.png);
+  }
+}
+@media only screen and (min-resolution: 192dpi) and (min-width: 768px) {
+  .bg-image-lines {
+    background-image: url(../img/header/graphic-tab@2x.png);
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .bg-image-lines {
+    background-image: url(../img/header/graphic-desk1280.png);
+  }
+}
+@media only screen and (min-resolution: 192dpi) and (min-width: 1280px) {
+  .bg-image-lines {
+    background-image: url(../img/header/graphic-desk1280@2x.png);
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .bg-image-lines {
+    background-image: url(../img/header/graphic-desk1440.png);
+  }
+}
+@media only screen and (min-resolution: 192dpi) and (min-width: 1280px) {
+  .bg-image-lines {
+    background-image: url(../img/header/graphic-desk1440@2x.png);
+  }
+}
+
 @media only screen and (min-width: 320px) and (max-width: 767px) {
-  .hero-img-man-main-tab {
-    display: none;
-  }
-  .hero-img-man-main-desk {
-    display: none;
-  }
   .hero-section-one {
     margin-bottom: 27px;
   }
@@ -143,6 +181,9 @@
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 1280px) {
+  .hero-section {
+    padding-bottom: 100px;
+  }
   .div-hero-section {
     background: var(--gradient-end);
     width: 704px;
@@ -198,6 +239,9 @@
 }
 
 @media only screen and (min-width: 1280px) and (max-width: 1439px) {
+  .hero-section {
+    padding-bottom: 150px;
+  }
   .hero-img-man-main {
     display: none;
   }
@@ -247,6 +291,9 @@
   }
 }
 @media only screen and (min-width: 1440px) {
+  .hero-section {
+    padding-bottom: 150px;
+  }
   .main-hero-h {
     width: 530px;
     font-size: 4rem;
