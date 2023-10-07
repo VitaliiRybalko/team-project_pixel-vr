@@ -1,3 +1,16 @@
+.main-footer{
+    position: relative;
+    background-image: url(../img/footer/footer-net-mob.png);
+    background-repeat: no-repeat;
+   background-size: cover;
+    padding-bottom: 20px;
+    border-top: 1px solid rgba(255, 255, 255, .2);
+
+   
+}
+
+
+
 .footer-logo{
     display: block;
     margin-bottom: 20px;
@@ -7,7 +20,7 @@
     margin-bottom: 10px;
 }
 .address-footer{
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
     font-style: normal;
 }
 .footer-links{
@@ -22,9 +35,7 @@
 
 
 
-.test{
-text-decoration: none;
-}
+
 .outer-ul{
     display: flex;
     gap: 40px;
@@ -64,7 +75,7 @@ padding: 20px 18px;
 .rights-reserved{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 
 }
 .left-container{
