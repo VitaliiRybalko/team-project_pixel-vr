@@ -55,6 +55,12 @@
 .header-nav-link {
   font-size: 14px;
   text-transform: uppercase;
+  transition: color var(--trns-fast);
+}
+.header-nav-link:hover,
+.header-nav-link:focus,
+.header-nav-link:active {
+  color: var(--brown);
 }
 .header-menu-btn {
   display: flex;
@@ -84,7 +90,7 @@
 }
 @media only screen and (min-width: 768px) {
   .header-sign-up {
-    background: var(--white);
+    background-color: var(--white);
     color: var(--black);
     font-size: 18px;
     font-weight: 700;
@@ -95,12 +101,19 @@
     padding: 16px 59px;
     justify-content: center;
     align-items: center;
+    transition: background-color var(--trns-fast), color var(--trns-fast);
   }
 }
 @media only screen and (min-width: 1280px) {
   .header-sign-up {
     padding: 16px 85px;
   }
+}
+.header-sign-up:hover,
+.header-sign-up:focus,
+.header-sign-up:active {
+  background-color: var(--dark-grey);
+  color: var(--brown);
 }
 .header-sign-up-cam {
   display: flex;
@@ -117,8 +130,11 @@
 }
 .header-sign-up-icon {
   fill: #bea69e66;
+  transition: fill var(--trns-fast);
 }
-.header-sign-up-cam:focus-within .header-sign-up-icon {
+.header-sign-up-cam:focus .header-sign-up-icon,
+.header-sign-up-cam:hover .header-sign-up-icon,
+.header-sign-up-cam:active .header-sign-up-icon {
   fill: var(--brown);
 }
 .mob-right-box {
