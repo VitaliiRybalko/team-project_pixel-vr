@@ -23,6 +23,22 @@
         line-height: 1.13;
     }  
 }
+@media only screen and (min-width: 1280px){
+    .su-container {
+        display: flex;
+        gap: 60px;
+        
+    }
+}
+@media only screen and (min-width:1440px) {
+    .su-container {
+        gap: 200px;
+        
+    }
+    
+}
+
+
 
 .su-paragraf {
     width: 295px;
@@ -67,8 +83,31 @@
 .su-input:focus{
     border: 1px solid rgba(255, 255, 255, 0.50); 
 }
+
+
 .su-text-area:focus{
     border: 1px solid rgba(255, 255, 255, 0.50); 
+}
+
+
+@media screen and (min-width:1280px) {
+   
+    .su-input:focus,
+    .su-text-area:focus
+     {
+        box-shadow: 2px 2px 7px #bea69e ;
+        transition: box-shadow 0.3s ;
+    }
+    
+}
+@media screen and (max-width: 1279px) {
+    .su-input:focus-within,
+  
+    .su-text-area:focus-within{
+        box-shadow: 2px 2px 7px #bea69e ;
+        transition: box-shadow 0.3s ;  
+    }
+   
 }
 
 .su-text-area {
@@ -115,7 +154,11 @@
     line-height: 1.25;
     text-transform: uppercase;
     margin-bottom: 20px;
+    display: block;
 }
+
+
+
 @media only screen and (min-width: 768px){
     .su-button{
         max-width: 479px;
@@ -125,6 +168,36 @@
         line-height: 1.55;
 
     }
+}
+
+@media only screen and (min-width: 1280px){
+    .su-button:hover,
+    .su-button:focus{
+        background-color:var( --gradient-end);
+        color: var(--brown);
+    }
+   
+}
+@media only screen and (max-width: 1279px){
+    .su-button:active
+    {
+        background-color:var( --gradient-end);
+        color: var(--brown);
+    }
+   
+}
+
+@media only screen and (min-width:1280px) {
+    .sign-up-image{
+        width: 540px;
+    }
+    
+}
+@media only screen and (min-width:1440px) {
+    .sign-up-image{
+        width: 560px;
+    }
+    
 }
 
 
@@ -148,3 +221,15 @@
     text-decoration: underline ;
     color: inherit;
 }
+
+@media only screen and (max-width:360px) {
+   .br-signup{
+    display: none;
+   } 
+    }
+
+    @media only screen and (max-width:1279px) {
+        .su-picture-container{
+            display: none;
+        }
+    }
