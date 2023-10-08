@@ -1,12 +1,82 @@
 .main-footer{
-    position: relative;
-    background-image: url(../img/footer/footer-net-mob.png);
-    background-repeat: no-repeat;
-   background-size: cover;
+   
+   
+    background-image: url(../img/footer/Graphic_mob.png);
+    
+    background-size: contain;
     padding-bottom: 20px;
     border-top: 1px solid rgba(255, 255, 255, .2);
 
-   
+   margin-left: auto;
+   margin-right: auto;
+}
+@media only screen and (max-width:767.98px) and (min-resolution: 192dpi){
+    .main-footer{
+        background-image: url(../img/footer/Graphic_mob@2x.png); 
+    }
+
+}
+
+/* Tablet */
+@media only screen and (min-width: 768px) {
+    .main-footer{
+        
+        width: 100%;
+        background-image: url(../img/footer/Graphic_tab.png); 
+    }
+   }
+   @media only screen and (min-width: 768px) and (min-resolution: 192dpi){
+    .main-footer{
+        background-image: url(../img/footer/Graphic_tab@2x.png); 
+    }
+
+}
+
+   /* Desktop */
+   @media only screen and (min-width: 1280px){
+       .main-footer{
+      
+       
+        background-image: url(../img/footer/Graphic_descktop.png);
+       } 
+   }
+   @media only screen and (min-width:1280px) and (min-resolution: 192dpi){
+    .main-footer{
+        background-image: url(../img/footer/Graphic_descktop@2x.png); 
+    }
+
+}
+   /* Desktop 1440 */
+   @media only screen and (min-width: 1440px){
+    .main-footer{
+    
+     background-image: url(../img/footer/Graphic_descktop1440.png);
+    } 
+}
+@media only screen and (min-width:1440px) and (min-resolution: 192dpi){
+    .main-footer{
+        background-image: url(../img/footer/Graphic_descktop1440@2x.png); 
+    }
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1279px){
+    .block-footer{
+        display: flex;
+       
+        font-size: 14px;
+        justify-content: space-between;
+
+        
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .block-footer{
+        display: flex;
+        font-size: 14px;
+    }
 }
 
 
@@ -14,8 +84,15 @@
 .footer-logo{
     display: block;
     margin-bottom: 20px;
-
 }
+@media only screen and (min-width: 1280px){
+    .footer-logo{
+        margin-bottom: 25px;
+    }
+}
+
+
+
 .phone-nmbr{
     margin-bottom: 10px;
 }
@@ -23,6 +100,22 @@
     /* margin-bottom: 40px; */
     font-style: normal;
 }
+
+
+@media only screen and (min-width: 1280px){
+    .first-block{
+        margin-right: 285px;
+
+    }
+}
+@media only screen and (min-width: 1440px){
+    .first-block{
+        margin-right: 341px;
+
+    }
+}
+
+
 .footer-links{
     display: flex;
     flex-direction: column;
@@ -32,6 +125,12 @@
 .address-link{
     margin-bottom: 40px;
 }
+@media only screen and (min-width: 768px){
+    .address-link{
+        margin-bottom: 0;
+    } 
+}
+
 
 
 
@@ -41,9 +140,52 @@
     gap: 40px;
    
 }
-.links{
+@media only screen and (min-width: 768px){
+    .outer-ul{
+    gap: 25px;
+    
+}
+
+}
+
+@media only screen and (min-width: 1280px){
+    .outer-ul{
+    gap: 50px;
+    
+}
+
+}
+@media only screen and (min-width: 1440px){
+    .outer-ul{
+    gap: 100px;
+    
+}
+
+}
+.second-block{
     margin-bottom: 75px;
     
+}
+@media only screen and (min-width: 768px){
+    .second-block{
+        /* margin-right: 58px; */
+        margin-bottom: 0;
+        }
+        
+}
+@media only screen and (min-width: 1280px){
+    .second-block{
+    margin-right: 135px;
+    
+}
+
+}
+@media only screen and (min-width: 1440px){
+    .second-block{
+    margin-right: 191px;
+    
+}
+
 }
 
 .footer-input{
@@ -54,24 +196,51 @@ border-radius: 12px;
 border: transparent;
 padding: 20px 18px;
 
+}@media only screen and (min-width: 768px){
+    .footer-input{
+        width: 178px;
+    }  
 }
+
+@media only screen and (min-width: 1280px){
+    .footer-input{
+   width: 216px;
+   font-size: 16px;
+   line-height: 1.25;
+    
+}
+
+}
+
+
 .footer-button {
-    margin-left: 8px;
+   
     margin-bottom: 40px;
-    width: 60px;
-    height: 60px;
+    /* width: 60px;
+    height: 60px; */
     border-radius: 12px;
     background-color: var(--dark-grey);
     border: transparent;
     color: var(--white);
      font-size: 20px;
+    padding: 18px 16px; 
 
    
 
 }
 .form-footer{
     display: flex;
+    gap: 8px;
 }
+
+@media only screen and (min-width: 1280px){
+    .form-footer{
+        gap: 16px;
+  
+}
+}
+
+
 .rights-reserved{
     display: flex;
     justify-content: space-between;
@@ -87,5 +256,8 @@ padding: 20px 18px;
     width: 116px;
     font-size: 12px;
     line-height: 1.33;
+    
+}
+.phone-nmbr{
     
 }
