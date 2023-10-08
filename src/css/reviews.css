@@ -68,6 +68,7 @@
     height: 196px;
   }
 }
+
 .reviews-header {
   display: flex;
   flex-direction: column;
@@ -86,8 +87,8 @@
   .reviews-header {
     margin-bottom: 23px;
   }
-  
 }
+
 .reviews-student {
   display: inline-flex;
   justify-content: center;
