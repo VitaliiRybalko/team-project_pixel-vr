@@ -165,7 +165,7 @@
   flex-direction: column;
   padding: 22vh 101px 0px 20px;
   background-color: var(--brown);
-  background-image: url(../img/header/rectangle-menu-mob.jpg);
+  background-image: url(./img/header/rectangle-menu-mob.jpg);
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: contain;
@@ -175,7 +175,7 @@
 }
 @media only screen and (min-resolution: 192dpi) {
   .menu-container {
-    background-image: url(../img/header/rectangle-menu-mob@2x.jpg);
+    background-image: url(./img/header/rectangle-menu-mob@2x.jpg);
   }
 }
 .backdrop.is-open .menu-container {
@@ -185,12 +185,12 @@
   .menu-container {
     width: 480px;
     padding: 22vh 319px 0 64px;
-    background-image: url(../img/header/rectangle-menu-mob-tablet.jpg);
+    background-image: url(./img/header/rectangle-menu-mob-tablet.jpg);
   }
 }
 @media only screen and (min-width: 768px) and (min-resolution: 192dpi) {
   .menu-container {
-    background-image: url(../img/header/rectangle-menu-mob-tablet@2x.jpg);
+    background-image: url(./img/header/rectangle-menu-mob-tablet@2x.jpg);
   }
 }
 .btn-close {
