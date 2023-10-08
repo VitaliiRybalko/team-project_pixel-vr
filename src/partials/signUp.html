@@ -1,13 +1,13 @@
-<section class="sp-section section" id="sign-up">
+<section class="su-section section" id="sign-up">
   <div class="container">
-    <h2 class="sp-title">Sign <span>Up</span></h2>
+    <h2 class="su-title">Sign <span>Up</span></h2>
     <p class="su-paragraf">
       Please use the form below to contact us. Enter your name, email, and
       message and we'll get back to you shortly.
     </p>
     <form>
-      <input class="su-input" type="text" id="name" placeholder="Enter your name" required />
-      <input class="su-input" type="email" id="email" placeholder="Enter your email" required />
+      <input class="su-input" type="text" id="name" placeholder="Enter your name" pattern="[A-Za-zА-Яа-яЁё\s]{2,}" />
+      <input class="su-input" type="email" id="email" placeholder="Enter your email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" />
       <textarea class="su-text-area" name="message" id="message" placeholder="Message" required></textarea>
       <button class="su-button" type="submit">Send</button>
       <p class="policy-paragraf">
