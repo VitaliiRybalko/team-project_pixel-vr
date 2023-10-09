@@ -242,6 +242,9 @@
   font-size: 14px;
   font-weight: 400;
   text-transform: uppercase;
+  text-shadow: 1px 0px 1px var(--brown), -1px 0px 1px var(--brown),
+    0px 1px 1px var(--brown), 0px -1px 1px var(--brown),
+    0px 0px 3px var(--brown);
 }
 .mob-nav-link.current {
   font-weight: 700;
