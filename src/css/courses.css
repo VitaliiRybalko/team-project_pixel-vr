@@ -18,6 +18,12 @@
   }
 }
 
+@media only screen and (min-width: 1440px) {
+  .courses-wrapper {
+    margin-bottom: 35px;
+  }
+}
+
 .courses-title {
   font-size: 28px;
   font-weight: 500;
