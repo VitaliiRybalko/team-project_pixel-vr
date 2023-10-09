@@ -8,6 +8,7 @@
   .courses-wrapper {
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 50px;
   }
 }
 
@@ -78,6 +79,7 @@
 @media only screen and (min-width: 768px) {
   .courses-card-item {
     width: 342px;
+    height: 452px;
     padding: 32px;
   }
 }
@@ -117,6 +119,13 @@
   background-color: var(--brown);
 }
 
+@media only screen and (min-width: 768px) {
+  .courses-bnt {
+    top: 30px;
+    right: 30px;
+  }
+}
+
 .courses-card-icon {
   fill: none;
   stroke: #777777;
@@ -139,6 +148,12 @@
   line-height: 1.14;
   margin-top: 60px;
   max-width: 260px;
+}
+
+@media only screen and (min-width: 768px) {
+  .courses-card-title {
+    margin-top: 65px;
+  }
 }
 
 .courses-card-description {
