@@ -96,6 +96,12 @@
   }
 }
 
+@media only screen and (min-width: 1440px) {
+  .about-text-container {
+    height: 215px;
+  }
+}
+
 .about-text {
   color: var(--white); /* basic text style */
   font-size: 14px; /* basic text style */
@@ -113,7 +119,7 @@
 
 @media only screen and (min-width: 768px) {
   .about-text {
-    width: 280px;
+    width: 280.2px;
     font-size: 16px;
     line-height: 1.25;
   }
@@ -121,10 +127,10 @@
 
 @media only screen and (min-width: 1280px) {
   .about-text {
-    width: 268px;
+    width: 268.5px;
   }
   .about-text:last-child {
-    width: 264px;
+    width: 264.5px;
   }
 }
 
