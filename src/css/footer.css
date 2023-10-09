@@ -84,9 +84,9 @@
 
 .footer-logo{
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
 }
-@media only screen and (min-width: 1280px){
+@media only screen and (min-width: 768px){
     .footer-logo{
         margin-bottom: 25px;
     }
@@ -94,11 +94,13 @@
 
 
 
+
+
 .phone-nmbr{
     margin-bottom: 10px;
 }
 .address-footer{
-    /* margin-bottom: 40px; */
+    
     font-style: normal;
 }
 
@@ -145,6 +147,7 @@
 @media only screen and (min-width: 768px){
     .outer-ul{
     gap: 25px;
+    margin-bottom: 74px;
     
 }
 
@@ -153,6 +156,7 @@
 @media only screen and (min-width: 1280px){
     .outer-ul{
     gap: 50px;
+    margin-bottom: 50px;
     
 }
 
@@ -197,6 +201,7 @@ outline: transparent;
 border-radius: 12px;
 border: transparent;
 padding: 20px 18px;
+font-size: 16px;
 
 }@media only screen and (min-width: 768px){
     .footer-input{
@@ -266,22 +271,40 @@ padding: 20px 18px;
 .rights-reserved{
     display: flex;
     justify-content: space-between;
-    /* margin-bottom: 20px; */
+   
 
 }
 .left-container{
-    width: 147px;
+   
     font-size: 12px;
     line-height: 1.33;
     letter-spacing: normal;
 }
 .right-container{
-    width: 116px;
+   
     font-size: 12px;
     line-height: 1.33;
     letter-spacing: normal;
     
 }
-.phone-nmbr{
+@media only screen and (min-width:768px) {
+   .left-container{
+    font-size: 14px;
+    line-height: 1.28;
+ 
+    letter-spacing: normal;
+   }
+    
+    
+}
+@media only screen and (min-width:768px) {
+   .right-container{
+    font-size: 14px;
+    line-height: 1.28;
+    
+   
+    
+   }
+    
     
 }
