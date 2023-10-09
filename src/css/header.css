@@ -20,7 +20,7 @@
   }
 }
 .header-nav {
-  padding: 0 20px;
+  padding: 0 19px;
   border-radius: 12px;
   border: 1px rgba(255, 255, 255, 0.2) solid;
   background-color: var(--black);
@@ -179,7 +179,7 @@
   height: 100%;
   display: flex;
   flex-direction: column;
-  padding: 22vh 101px 0px 20px;
+  padding: 180px 101px 0px 20px;
   background-color: var(--brown);
   background-image: url(../img/header/rectangle-menu-mob.jpg);
   background-repeat: no-repeat;
@@ -200,7 +200,7 @@
 @media only screen and (min-width: 768px) {
   .menu-container {
     width: 480px;
-    padding: 22vh 319px 0 64px;
+    padding: 232px 319px 0 64px;
     background-image: url(../img/header/rectangle-menu-mob-tablet.jpg);
   }
 }
@@ -242,6 +242,9 @@
   font-size: 14px;
   font-weight: 400;
   text-transform: uppercase;
+  text-shadow: 1px 0px 1px var(--brown), -1px 0px 1px var(--brown),
+    0px 1px 1px var(--brown), 0px -1px 1px var(--brown),
+    0px 0px 3px var(--brown);
 }
 .mob-nav-link.current {
   font-weight: 700;
