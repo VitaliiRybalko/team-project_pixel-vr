@@ -55,6 +55,7 @@
   .marquee__line {
     font-size: 40px;
     padding: 24px;
+    line-height: 50px;
   }
 }
 
