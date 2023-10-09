@@ -10,6 +10,8 @@
    margin-left: auto;
    margin-right: auto;
    letter-spacing: normal;
+   padding-top: 40px;
+   padding-bottom: 20px;
 }
 @media only screen and (max-width:767.98px) and (min-resolution: 192dpi){
     .main-footer{
@@ -24,6 +26,8 @@
         
         width: 100%;
         background-image: url(../img/footer/Graphic_tab.png); 
+        padding-top: 50px;
+        padding-bottom: 25px;
     }
    }
    @media only screen and (min-width: 768px) and (min-resolution: 192dpi){
@@ -77,6 +81,9 @@
     .block-footer{
         display: flex;
         font-size: 14px;
+        line-height: normal;
+        /* padding-left: 101px;
+        padding-right: 101px; */
     }
 }
 
@@ -84,7 +91,7 @@
 
 .footer-logo{
     display: block;
-    margin-bottom: 16px;
+    margin-bottom: 18px;
 }
 @media only screen and (min-width: 768px){
     .footer-logo{
@@ -124,6 +131,14 @@
     flex-direction: column;
     gap: 14px;
     text-transform: uppercase;
+}
+
+
+@media only screen and (min-width:1280px) {
+    .footer-links{
+        gap: 20px;
+    }
+    
 }
 .address-link{
     margin-bottom: 40px;
@@ -174,7 +189,7 @@
 }
 @media only screen and (min-width: 768px){
     .second-block{
-        /* margin-right: 58px; */
+     
         margin-bottom: 0;
         }
         
@@ -202,6 +217,7 @@ border-radius: 12px;
 border: transparent;
 padding: 20px 18px;
 font-size: 16px;
+margin-bottom: 40px;
 
 }@media only screen and (min-width: 768px){
     .footer-input{
@@ -222,15 +238,17 @@ font-size: 16px;
 
 .footer-button {
    
-    margin-bottom: 40px;
-    /* width: 60px;
-    height: 60px; */
+  
+   
     border-radius: 12px;
     background-color: var(--dark-grey);
     border: transparent;
     color: var(--white);
      font-size: 20px;
     padding: 18px 16px; 
+    width: 60px;
+    height: 60px;
+    
    }
 
    @media only screen and (min-width: 1280px){
@@ -301,10 +319,11 @@ font-size: 16px;
    .right-container{
     font-size: 14px;
     line-height: 1.28;
-    
-   
-    
-   }
-    
-    
 }
+}
+@media only screen and (min-width:768px) {
+    .right-container{
+     width: 138px;
+
+ }
+ }
