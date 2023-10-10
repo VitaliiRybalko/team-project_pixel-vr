@@ -194,10 +194,6 @@
   .hero-section {
     padding-bottom: 80px;
   }
-  .hero-img {
-    width: 259px;
-    height: 314px;
-  }
 }
 @media only screen and (min-width: 768px) and (max-width: 1280px) {
   .div-hero-section {
@@ -279,10 +275,6 @@
   .hero-link-our-happy {
     gap: 8px;
   }
-  .hero-img {
-    width: 393px;
-    height: 434px;
-  }
 }
 
 @media only screen and (min-width: 1280px) and (max-width: 1439px) {
@@ -342,10 +334,6 @@
     width: 50px;
     height: 50px;
     padding: 15px;
-  }
-  .hero-img {
-    width: 397px;
-    height: 520px;
   }
 }
 @media only screen and (min-width: 1440px) {
@@ -416,9 +404,5 @@
     -webkit-box-shadow: 0px 0px 31px -3px rgb(255, 255, 255);
     -moz-box-shadow: 0px 0px 20px -3px rgb(255, 255, 255);
     box-shadow: 0px 0px 20px -3px rgb(255, 255, 255);
-  }
-  .hero-img {
-    width: 397px;
-    height: 520px;
   }
 }
