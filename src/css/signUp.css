@@ -156,6 +156,7 @@
     display: block;
     position: relative;
     overflow: hidden;
+    background-color: var(--white);
 }
 
 .su-button::after {
