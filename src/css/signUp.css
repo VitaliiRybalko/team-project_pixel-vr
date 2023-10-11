@@ -155,7 +155,7 @@
     margin-bottom: 20px;
     display: block;
     position: relative;
-    overflow: hidden;
+    /* overflow: hidden; */
     background-color: var(--white);
 }
 
